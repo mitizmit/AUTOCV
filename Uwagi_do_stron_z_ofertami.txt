@@ -1,0 +1,51 @@
+CHATGPT OUTPUT
+`````
+
+//////////
+
+Kto ma API (warto zacząć tutaj)
+
+
+OLX (Partner API) — OLX udostępnia partnerom API do zarządzania ogłoszeniami i integracji; trzeba zarejestrować się w portal developerskim i uzyskać dostęp. 
+developer.olx.pl
++1
+
+Indeed (Partner / Job Sync API) — Indeed ma dokumentację API (Job Sync, inne narzędzia dla partnerów), ale to raczej integracja dla pracodawców/ATS; wymaga zgody/akceptacji partnera. 
+docs.indeed.com
++1
+
+Jooble (REST API) — Jooble oferuje REST API do wyszukiwania ofert; rejestrujesz się i pobierasz klucz API. To wygodny agregator dla wielu źródeł. 
+Jooble
++1
+
+Adzuna (API) — globalny agregator z publicznym API (z rejestracją i kluczem). Daje dostęp do wyszukiwania ofert, statystyk, salary data. 
+developer.adzuna.com
++1
+
+///////////
+
+Kto najprawdopodobniej nie ma publicznego API / ma partner API za zamkniętymi drzwiami
+
+
+Pracuj.pl — brak jasnej, publicznej dokumentacji API; z wpisów i forów wynika, że dostęp do API może być udostępniany w ramach partnerstw (nie publiczny). Trzeba kontaktować się biznesowo. (brak publicznego endpointu w dokumentacji). 
+4programmers
++1
+
+///////////
+
+Alternatywy / backup (jeśli brak API lub chcesz szersze pokrycie)
+
+
+Agregatory (Jooble, Adzuna) — najlepsza droga: rejestrujesz się u nich i używasz jednego API zamiast kopać w pojedynczych portalach. 
+Jooble
++1
+
+Płatne API / scraping-as-a-service — serwisy typu HasData, Apify lub inne komercyjne API potrafią zwracać JSON z ofert z dużej liczby serwisów (pomocne, gdy strony blokują scraping). 
+hasdata.com
++1
+
+Headless scraping (Playwright/Puppeteer) tylko jako ostateczność i z poszanowaniem ToS — najlepiej do użycia wtedy, gdy masz zgodę lub to Twoje własne konto które użytkownik autoryzuje (rozwiązanie techniczne, nie prawne). (ogólna uwaga — nie radzę XSS czy exploitów).
+
+///////////
+
+``````
